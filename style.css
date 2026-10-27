@@ -21,7 +21,7 @@ nav a {
 
 a:hover {
     color: red;
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .image {
@@ -85,6 +85,8 @@ a:hover {
 .contacts {
     display: flex;
     gap: 200px;
+    background-color: black;
+    margin: 0px;
 }
 
 .contact {
@@ -92,8 +94,5 @@ a:hover {
     height: 150px;
     width: 250px;
     text-align: center;
-    border-bottom: 3px solid black;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
-    border-top: 3px solid black;
+    color: white;
 }
